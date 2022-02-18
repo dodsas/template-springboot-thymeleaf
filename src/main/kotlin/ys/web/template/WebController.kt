@@ -10,6 +10,6 @@ class WebController {
 
     fun main(model: Model): String {
         model.addAttribute("name", "홍길순")
-        return "index_bkk"
+        return "search"
     }
 }
